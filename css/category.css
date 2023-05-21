@@ -1,0 +1,64 @@
+
+:root{
+  --main-color: #eeb08d;
+  --black:#13131a;
+  --bg:#010103;
+  --border:.1rem solid rgba(255, 255, 255, 0.295);
+  --secondary-color: rgb(192, 37, 37);
+  --bgcolor: #f7c4a6;
+  --white: #ddd;
+  --dark: #111;
+  --darkGrey: #474b4f;
+  --transition: all 0.5s ease;
+}
+.filter-buttons {
+  text-align: center;
+}
+
+.filter-button {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  color: #fff;
+  background-color: transparent;
+  
+}
+
+.filter-button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+#gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.wrapper{
+  margin: 100px auto;
+}
+.wrapper nav{
+  display: flex;
+  justify-content: center;
+}
+.wrapper .items{
+  display: flex;
+  max-width: 720px;
+  width: 100%;
+  justify-content: space-between;
+}
+.items span{
+  padding: 7px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid var(--main-color);
+  transition: all 0.3s ease;
+}
+.items span.active,
+.items span:hover{
+  color: #fff;
+  background: var(--main-color);
+}
