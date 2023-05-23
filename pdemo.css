@@ -510,6 +510,17 @@ header.header-active form{
     transition: var(--transition);
     cursor: pointer;
 }
+.subs button{
+    flex: 30%;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: bold;
+    color: #fff;
+    background: var(--main-color);
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
 
 
 .contact form{
@@ -632,4 +643,48 @@ header.header-active form{
     padding:1rem 0;
     color:#eee;
   }
+  .subs{
+    background: #000;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+.subs i{
+    font-size: 26px;
+    flex: 10%;
+    display: block;
+}
+.subs input{
+    flex: 60%;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 0 5px;
+    outline: 0;
+    color: #fff;
+}
+.subs span{
+    flex: 30%;
+    font-size: 14px;
+    padding: 15px 0;
+    font-weight: bold;
+    color: #fff;
+    background: var(--main-color);
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.subs button{
+    flex: 30%;
+    font-size: 14px;
+    padding: 15px 0;
+    font-weight: bold;
+    color: #fff;
+    background: var(--main-color);
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
 }
