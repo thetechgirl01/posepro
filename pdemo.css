@@ -405,8 +405,8 @@ header.header-active form{
 
 .about,
 .about2 {
-    width: 50vw;
-    height: 80vh;
+    width: 60vw;
+    height: 60vh;
     margin: auto;
     text-align: center;
     padding: 30px;
@@ -484,20 +484,20 @@ header.header-active form{
     justify-content: space-between;
     align-items: center;
     margin: 30px auto;
+    border: var(--border);
 }
 .subs i{
-    font-size: 26px;
+    font-size: 16px;
     flex: 10%;
     display: block;
 }
 .subs input{
     flex: 60%;
-    background: transparent;
-    border: none;
-    font-size: 16px;
-    padding: 0 5px;
-    outline: 0;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
 }
 .subs span{
     flex: 30%;
@@ -510,13 +510,13 @@ header.header-active form{
     transition: var(--transition);
     cursor: pointer;
 }
-.subs button{
+ button{
     flex: 30%;
     font-size: 16px;
     padding: 15px 0;
     font-weight: bold;
     color: #fff;
-    background: var(--main-color);
+    background-color: var(--main-color);
     border: none;
     transition: var(--transition);
     cursor: pointer;
