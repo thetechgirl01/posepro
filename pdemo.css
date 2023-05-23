@@ -327,7 +327,7 @@ header.header-active form{
     justify-content: center;
     align-items: center;
     width: 350px;
-    height: 400px;
+    height: 450px;
     border-radius: 10px;
     margin: 25px;
     box-sizing: border-box;
@@ -349,7 +349,7 @@ header.header-active form{
    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./images/non\ phogenic.jpg");
 }
 .card5 {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./images/non\ phogenic.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./images/shiloutte.jpg");
  }
 
 .card:hover{
@@ -606,5 +606,8 @@ header.header-active form{
         background-position: left;
         justify-content: center;
         text-align: center;
+    }
+    .card p{
+       font-size: 1px;
     }
 }

@@ -4,156 +4,318 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Non Photogenic</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Men Gallery | Pro Pose</title>
     <link rel="stylesheet" href="pdemo.css">
-    <link rel="stylesheet" href="mengal.css">
+    <link rel="icon" href="images/about-img.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/pdemo.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/category.css">
+    <title>PosePro | Men Gallery</title>
 </head>
 <body>
-    <!--header starts -->
-    <header class="header">
+    <!-- header section starts  -->
 
-        <a href="#" class="logo">
-            <img src="images/logo.png" alt="">
-        </a>
+<header>
+
+    <a href="#" class="logo"><img src="" alt=""><i class="fas fa-camera"></i></a>
     
-        <nav class="navbar">
-            <a href="pdemo.html">home</a>
-            <a href="#category">category</a>
-            <a href="#gallery">gallery</a>
-            <a href="#footer">subscribe</a>
-        </nav>
+    <form action="">
+        <input type="search" id="search" placeholder="search images">
+        <label for="search" class="fas fa-search"></label>
+    </form>
     
-        <div class="icons">
-            <div class="fas fa-search" id="search-btn"></div>       
-            <div class="fas fa-bars" id="menu-btn"></div>
-        </div>
-        </div>
+    <div id="menu" class="fas fa-bars"></div>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="/html/explore.html">explore</a></li>
+            <li><a href="#">category</a></li>
+            <li><a href="#">login</a></li>
+        </ul>
+    </nav>
+    
+    <a href="#" class="upload btn">upload</a>
     
     </header>
-    <!-- header ends-->
-
-<!--men gallery starts -->
-
-<div class="wrapper">
-    <!-- filter gallery-item -->
-    <nav>
-      <div class="gallery-item">
-        <span class="item active" data-name="all">All</span>
-        <span class="item" data-name="mask">Mask</span>
-        <span class="item" data-name="phone up">Phone Up</span>
-        <span class="item" data-name="hand">Hands</span>
-        <span class="item" data-name="faceoff">Face Off</span>
-        <span class="item" data-name="head down">Head Down</span>
-      </div>
-    </nav>
-    <!-- filter Images -->
-    <div class="gallery">
-      <div class="image" data-name="faceoff"><span><img src="images/faceoff woman.png" alt=""></span></div>
-      <div class="image" data-name="head down"><span><img src="images/headdown woman.jpg" alt=""></span></div>
-      <div class="image" data-name="head down"><span><img src="images/headdown woman 2.jpg" alt=""></span></div>
-      <div class="image" data-name="phone up"><span><img src="images/phone up 2.jpg" alt=""></span></div>
-      <div class="image" data-name="mask"><span><img src="images/mask.png" alt=""></span></div>
-      <div class="image" data-name="phone up"><span><img src="images/phone up.jpg" alt=""></span></div>
-      <div class="image" data-name="head down"><span><img src="images/facedown 6.jpg" alt=""></span></div>
-      <div class="image" data-name="hand"><span><img src="images/hand woman.png" alt=""></span></div>
-      <div class="image" data-name="faceoff"><span><img src="images/faceoff woman 2.jpg" alt=""></span></div>
-      <div class="image" data-name="head down"><span><img src="images/hand woman 2.png" alt=""></span></div>
-      <div class="image" data-name="hand"><span><img src="images/hand woman 5.jpg" alt=""></span></div>
-      <div class="image" data-name="head down"><span><img src="images/headdown woman 4.jpg" alt=""></span></div>
-      <div class="image" data-name="phone up"><span><img src="images/phone up 3.jpg" alt=""></span></div>
-      <div class="image" data-name="hand"><span><img src="images/hand woman 5.jpg" alt=""></span></div>
-      <div class="image" data-name="head down"><span><img src="images/headdown woman 3.jpg" alt=""></span></div>
-      <div class="image" data-name="head down"><span><img src="images/headdown woman 2.jpg" alt=""></span></div>
-    </div>
-    </div>
-  </div>
-  <!-- fullscreen img preview box -->
-  <div class="preview-box">
-    <div class="details">
-      <span class="title">Image Category: <p></p></span>
-      <span class="icon fas fa-times"></span>
-    </div>
-    <div class="image-box"><img src="" alt=""></div>
-  </div>
-  <div class="shadow"></div>
-  <!-- category section starts-->
-<section class="category" id="category">
-    <a href="mengal.html">
-        <div class="card card1">
-                <h5>MEN</h5>
-                <P>Taking pictures as a man can be quite difficult, I mean, most men don't even want the stress that comes with as they just want to stand there, take a picture and go on with there lives. We have put together a few pose tutorials to help YOU!</P>
-        </div>
-        </a>
-  <a href="womengal.html">
-      <div class="card card2">
-          <h5>WOMEN</h5>
-          <P>Taking pictures as a man can be quite difficult, I mean, most men don't even want the stress that comes with as they just want to stand there, take a picture and go on with there lives. We have put together a few pose tutorials to help YOU!</P>
+    <div class="wrapper">
+        <!-- filter Items -->
+        <nav> 
+            <div class="filter-buttons">
+                <button class="filter-button active btn" data-filter="all">All</button>
+                <button class="filter-button btn" data-filter="phone">Phone Up</button>
+                <button class="filter-button btn" data-filter="head">Head Down</button>
+                <button class="filter-button btn" data-filter="mask">Mask</button>
+                <button class="filter-button btn" data-filter="hand"> Hands </button>
             </div>
-          </a>
-      <div class="card card3">
-          <h5>KIDS</h5>
-          <P>Taking pictures as a man can be quite difficult, I mean, most men don't even want the stress that comes with as they just want to stand there, take a picture and go on with there lives. We have put together a few pose tutorials to help YOU!</P>
-  
-           </div>
-     
-   
-  </section>
-  <!-- category section ends-->
+        </nav>
 
-  <script src="gel.js"></script>
+        <section class="gallery">
 
-<!--men gallery ends -->
-<!--footer-->
-<!--footer-->
-<footer class = "footer" id="footer">
-  <div class = "footer-container container">
-      <div>
-          <h2>PRO POSE</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati sapiente minima itaque nam modi libero optio vitae animi, praesentium quis commodi fugit quasi nostrum nihil veniam nisi suscipit cumque ducimus error doloribus est voluptatum at? Et aut mollitia quia.</p>
-      </div>
-      <div>
-          <h3>Free Subscription!</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, facere eius! Ipsam laborum modi, cumque dolor incidunt animi nam magni.</p>
-
-          <div class = "subs">
-              <i class = "fas fa-envelope"></i>
-              <input type = "email" id = "email" placeholder="Email Address">
-              <span type = "submit">SUBSCRIBE</span>
-          </div>
-      </div>
-
-      <div class="contact" id="contact">
+            <div class="box gallery-item" data-category="hand">
+                <img src="/images/shy 2.avif" alt="">
+                <div class="info">
+                    <a href="#" class="fas fa-download"></a>
+                    <div class="links">
+                        <a href="#" class="far fa-heart"></a>
+                        <a href="#" class="far fa-comment"></a>
+                        <a href="#" class="far fa-thumbs-up"></a>
+                    </div>
+                </div>
+            </div>
         
-        <form action="">
-            <h3>Send Us A <span>Review</span></h3>
-            <div class="inputBox">
-                <span class="fas fa-user"></span>
-                <input type="text" placeholder="Name">
+    <div class="box gallery-item" data-category="head">
+        <img src="/images/headdown 4.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
             </div>
-            <div class="inputBox">
-                <span class="fas fa-envelope"></span>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="phone">
+        <img src="/images/phone up 2.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/headdown woman 2.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="mask">
+        <img src="/images/mask.png" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/shy 3.avif" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="phone">
+        <img src="/images/phone up 3.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="phone">
+        <img src="/images/phone up.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/shy11.avif" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="head">
+        <img src="/images/headdown woman 4.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="head">
+        <img src="/images/headdown woman.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/shy6.avif" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/shy7.avif" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/shy8.avif" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/shy9.avif" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box gallery-item" data-category="hand">
+        <img src="/images/non phogenic.jpg" alt="">
+        <div class="info">
+            <a href="#" class="fas fa-download"></a>
+            <div class="links">
+                <a href="#" class="far fa-heart"></a>
+                <a href="#" class="far fa-comment"></a>
+                <a href="#" class="far fa-thumbs-up"></a>
+            </div>
+        </div>
+    </div>
+
+   </section>
+
+<!-- gallery section ends -->
+
+<span id="load-more-btn" class="more">Load More</span>
+
+<!-- footer section starts  -->
+
+<footer class = "footer" id="footer">
+    <div class = "footer-container container">
+        <div>
+            <h2>PRO POSE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati sapiente minima itaque nam modi libero optio vitae animi, praesentium quis commodi fugit quasi nostrum nihil veniam nisi suscipit cumque ducimus error doloribus est voluptatum at? Et aut mollitia quia.</p>
+        </div>
+        <div>
+            <h3>Free Subscription!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, facere eius! Ipsam laborum modi, cumque dolor incidunt animi nam magni.</p>
+  
+            <div class = "subs">
+                <i class = "fas fa-envelope"></i>
                 <input type = "email" id = "email" placeholder="Email Address">
+                <span type = "submit">SUBSCRIBE</span>
             </div>
-            <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="text" placeholder="Eg. I found this site helpful...">
-            </div>
-            <input type="submit" value="Send" class="btn">
-        </form>
-      </div>
-  </div>
-  <p>&copy; Copyright TheJayScript Webs. </p>
-</footer>
-</body>
-</html>
+        </div>
+  
+        <div class="contact" id="contact">
+          
+          <form action="">
+              <h3>Send Us A <span>Review</span></h3>
+              <div class="inputBox">
+                  <span class="fas fa-user"></span>
+                  <input type="text" placeholder="Name">
+              </div>
+              <div class="inputBox">
+                  <span class="fas fa-envelope"></span>
+                  <input type = "email" id = "email" placeholder="Email Address">
+                 
+              </div>
+              <div class="inputBox">
+                  <span class="fas fa-phone"></span>
+                  <input type="text" placeholder="Eg. I found this site helpful...">
+              </div>
+              <input type="submit" value="Send" class="btn">
+          </form>
+  
+        </div>
+    </div>
+    <p>&copy; Copyright TheJayScript Webs. </p>
+  </footer>
+<!-- footer section ends -->
+
+<script>
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="/js/js.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/c"></script>
+<script src="/js/category.js"></script>
+
 </body>
 </html>
