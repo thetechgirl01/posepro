@@ -406,7 +406,7 @@ header.header-active form{
 .about,
 .about2 {
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
     margin: auto;
     text-align: center;
     padding: 30px;
@@ -608,6 +608,28 @@ header.header-active form{
         text-align: center;
     }
     .card p{
-       font-size: 1px;
+       font-size: 8px;
     }
+    .about,
+.about2 {
+    width: 80vw;
+    height: 40vh;
+}
+.about-inner h3, .about-inner h3 {
+    font-size: 1.4rem;
+    font-family: monospace;
+  }
+  
+  .about-inner h2, .about-inner h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+  
+  .about-inner p, .about-inner p {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+  }
 }
