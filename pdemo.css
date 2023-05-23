@@ -574,49 +574,44 @@ header.header-active form{
         grid-template-rows: min-content;
     }
     .subs{
-        background: #000;
-        width: 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 30px auto;
-    }
-    .subs i{
-        font-size: 26px;
-        flex: 10%;
-        display: block;
-    }
-    .subs input{
-        flex: 60%;
-        background: transparent;
-        border: none;
-        font-size: 16px;
-        padding: 0 5px;
-        outline: 0;
-        color: #fff;
-    }
-    .subs span{
-        flex: 30%;
-        font-size: 14px;
-        padding: 15px 0;
-        font-weight: bold;
-        color: #fff;
-        background: var(--main-color);
-        border: none;
-        transition: var(--transition);
-        cursor: pointer;
-    }
-    .subs button{
-        flex: 10%;
-        font-size: 14px;
-        padding: 15px 0;
-        font-weight: bold;
-        color: #fff;
-        background: var(--main-color);
-        border: none;
-        transition: var(--transition);
-        cursor: pointer;
-    }
+    background: #000;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+.subs i{
+    font-size: 26px;
+    flex: 10%;
+    display: block;
+}
+.subs input{
+    flex: 60%;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 0 5px;
+    outline: 0;
+    color: #fff;
+}
+.subs span{
+    flex: 30%;
+    font-size: 14px;
+    padding: 15px 0;
+    font-weight: bold;
+    color: #fff;
+    background: var(--main-color);
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
+button{
+    background: var(--main-color);
+    border: none;
+    border-radius: 0px;
+}
+
 }
 
 @media (max-width:700px){
