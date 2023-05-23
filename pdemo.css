@@ -141,7 +141,7 @@ header .navbar ul li a:hover{
 header .upload{
     margin-left: 2rem;
     font-size: 2rem;
-    background:var(--pink);
+    background:var(--bgcolor);
     color:#fff;
     border-radius: 5rem;
     padding:.5rem 2.5rem;
@@ -612,6 +612,22 @@ header.header-active form{
         margin:1.5rem;
         padding:.5rem;
         font-size: 2rem;
+        
+    }
+    header .upload{
+        margin-left: 1rem;
+        font-size: 1rem;
+        background:var(--bgcolor);
+        color:#fff;
+        border-radius: 5rem;
+        padding:.5rem 2.5rem;
+    }
+    header #menu{
+        font-size: 1.5rem;
+        color:#fff;
+        cursor: pointer;
+        margin-left: 1rem;
+ 
     }
     .home{
         background-position: left;
@@ -677,7 +693,7 @@ header.header-active form{
     cursor: pointer;
 }
 .subs button{
-    flex: 30%;
+    flex: 10%;
     font-size: 14px;
     padding: 15px 0;
     font-weight: bold;
